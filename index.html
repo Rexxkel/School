@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris School</title>
+    <!-- Using Boostrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <!-- Boostrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Using an External css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Map Box link -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <header class="p-1">
+        <div class="bg-primary">
+            <div class="container mb-3 mb-md-0 text-light d-block d-md-flex p-1 ">
+                <div class="event">
+                    <span><i class="bi bi-phone  p-1"></i> +1 5467 66445 34</span>
+                    <span><i class="bi bi-clock  p-1"></i> Mon-Sat: 11:0 0AM - 23:00 PM</span>
+                </div>
+                <div class="socials ms-auto ">
+                    <span>
+                        <i class="p-3 bi-facebook"></i>
+                        <i class="p-3 bi-twitter"></i>
+                        <i class="p-3 bi-google"></i>
+                        <i class="p-3 bi-instagram"></i>
+                        <i class="p-3 bi-linkedin"></i>
+                        <i class="p-3 bi-github"></i>
+                    </span>
+                </div>   
+            </div>
+        </div>
+        
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+            <div class="container">
+              <a class="navbar-brand text-warning h1" href="#">
+                <h1 class=" fw-bold">
+                    CHRISTOPHER UNIV.
+                </h1></a>
+              <button class="navbar-toggler" type="button" 
+              data-bs-toggle="collapse" data-bs-target="#navbar-help" 
+              ><span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-help">
+                <ul class="navbar-nav h4 mx-auto mb-2 mb-lg-0 justify-content-start align-items-start text-center-md">
+                  <li class="nav-item">
+                    <a class="nav-link active"  href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li><li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                  <button class="btn-lg btn btn-outline-primary h1" type="submit" >
+                    <a href="register.html"><Span><i class="bi bi-person"></i></Span></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Carousel section -->
+    
+        <div id="carouselid" 
+        class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button"data-bs-target="#carouselid"data-bs-slide-to="0" class="active" ></button>
+              <button type="button" data-bs-target="#carouselid" data-bs-slide-to="1" ></button>
+              <button type="button" data-bs-target="#carouselid" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://unifresher.co.uk/wp-content/uploads/2023/02/Featured-image-20.jpg" class="d-block w-100" style="height: 600px; " alt="picture">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1><span class="text-warning">EXPERIENCE THAT AWESOME</span> GRADUATION FEELINGS WITH US</h1>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://nexusleeds.co.uk/wp-content/uploads/2018/10/campus-1600x1080.jpg" class="d-block w-100" style="height: 600px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1><span class="text-warning">COMFORTABLE ENVIRONMENT</span> ENHANCES LEARNING</h1>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/R.92119f2cd96f1146ffbc3b3d993d3311?rik=WgaYAAQxqk%2f4%2fQ&pid=ImgRaw&r=0" class="d-block w-100" style="height: 600px;" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1><span class="text-warning">PROFOUND RELATIONSHIP WITH</span> PROFESSORS, LECTURERS AND STUDENT</h1>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselid" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselid" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+  
+    <!-- ABOUT SECTION -->
+    <section id="About" class="bg-light  p-5">
+      <div class="container text-dark ">
+        <h2 class="h1 text-center  fw-bold">
+        About
+      </h2>
+      <p class="text-center">Do you have any questions? Please do not hesitate to contact us 
+        directly. Our team will come back to you within a matter of hours to help you.
+      </p>
+      <div class="row g-1 d-flex p-2 mx-2 justify-content-between">
+        <div class="col-md p-2">
+          <img src="images/school compound.jpg" alt="" class="w-100 img-fluid">
+        </div>
+        <div class="col-md mx-4 mt-sm-2">
+          <h1><span class="text-warning">Our School</span></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ut assumenda inventore?
+             Distinctio ducimus totam quae facilis provident, labore quia. Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Reiciendis quas perspiciatis eligendi cupiditate natus dolore 
+            dolores incidunt obcaecati hic, laborum, dolorum rem ullam 
+            temporibus cumque eum mollitia molestiae pariatur consectetur. 
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod libero molestias odio sit.
+           Lorem ipsum dolor sit sghskf.
+           </p> 
+           <button class="btn btn-primary mt-">Read More</button>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="p-4 bg-light" id="Courses">
+      <div class="container">
+        <div class="container text-dark ">
+          <h2 class="h1 text-center  fw-bold">
+          Courses
+        </h2>
+        <p class="text-center">Do you have any questions? Please do not hesitate to contact us 
+          directly. Our team will come back to you within a matter of hours to help you.
+        </p>
+        <div class="row g-4 mt-2">
+          <div class="col-md">
+            <div class="card" >
+              <img src="images/reading.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Information Technology</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Cumque iusto quam error reprehenderit modi 
+                   maiores repellat sunt, ab esse repudiandae?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" >
+              <img src="images/mathematics.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Laboratory Sciences</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Cumque iusto quam error reprehenderit modi 
+                   maiores repellat sunt, ab esse repudiandae?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" >
+              <img src="images/geometry-1044090_1280.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mathematics Department</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Cumque iusto quam error reprehenderit modi 
+                   maiores repellat sunt, ab esse repudiandae?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="p-5 bg-light">
+      <div class="container text-dark  ">
+        <h2 class="h1 text-center fw-bold">
+        Gallery
+      </h2>
+      <p class="text-center  mb-5">Do you have any questions? Please do not hesitate to contact us 
+        directly. Our team will come back to you within a matter of hours to help you.
+      </p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+            <img src="images/video image.jpg" class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt="">
+           
+          </div>
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+            <img src="images/school compound.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt=""> 
+          </div>
+
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+            <img src="images/school-supplies.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+            <img src="images/engineering.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+            <img src="images/students-395568_1280.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt="">
+          </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+          <img src="images/graduation-907565_1280.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt=""> 
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+          <img src="images/exam.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt=""> 
+       </div>
+
+       <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+        <img src="images/school compound back view.jpg"  class="w-100 shadow-1-strong rounded-mb-4 img-fluid" alt=""> 
+     </div>
+
+       <div class="col-lg-4 col-md-12 mb-4 mb-lg-2">
+        <img src="images/teaching.jpg"  class="w-100 shadow-1-strong rounded-mb-4 shadow-1-strong mb-4" alt="">
+       </div>
+
+     </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="p-3 bg-light">
+      <div class="container">
+        <div>
+          <h2 class="h1 text-center fw-bold">
+            Contact Us
+          </h2>
+          <p class="text-center mb-5">Do you have any questions? Please do not hesitate to contact us 
+            directly. Our team will come back to you within a matter of hours to help you.
+          </p>
+        </div>
+        <div class="row g-3 justify-content-between">
+          <div class="col-md ">
+            <form>
+              <div class="control mb-3">
+                <div class="form-group w-100">
+                  <label for="label">Your Name</label><br>
+                  <input type="text"
+                   class="form-control" 
+                   id="label" placeholder="Your name">
+                </div>
+                <div class="form-group w-100">
+                  <label for="label">Email address</label><br>
+                  <input type="email" class="form-control"
+                   id="label" 
+                  placeholder="Enter email">
+                </div>
+              </div>
+              <div class="form-group w-100">
+                <label for="label" >Enter Subject</label><br>
+                <input type="text" class="form-control"
+                 id="label" 
+                placeholder="Subject">
+              </div>
+        
+              <div class="w-100">
+                <label for="exampleFormControlTextarea1" 
+                class="label"> Your message</label>
+                <textarea class="form-control" 
+                id="exampleFormControlTextarea1" rows="6" placeholder="write message"></textarea>
+
+                 <div class="mt-2 justify-content-center align-items-end text-center">
+                  <button class="btn btn-primary">
+                    Send
+                  </button>
+              </div>
+             
+              </div>
+            </form>
+          </div>
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+      </div>
+    </section>
+<footer class="bg-primary p-4 text-light " >
+  <div class="container my-5">
+    <div class="row g-1">
+      <div class="col-md">
+        <h4>
+          <i class="bi bi-house-door-fill"> <span class="p-4 " >SCHOOL</span></i>
+        <h4>
+          <div class="pacing">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur 
+              adipisicing elit. Provident similique voluptatem 
+              consequuntur porro animi. Lorem ipsum dolor sit amet.
+              Quae corporis et minima delectus enim!
+            </p>
+          </div>
+      </div>
+
+      <div class="col-md pacing">
+        <h5 class="mx-4" ><a href="#"></a>PRODUCTS<h5>
+        <ul class="justify-content-start">
+          <li><a href="#"></a>Home</li>
+          <li><a href="#"></a>About</li>
+          <li><a href="#"></a>Course</li>
+          <li><a href="#"></a>Contact Us</li>
+        </ul>
+      </div>
+
+      <div class="col-md pacing">
+        <h5 class="mx-4" ><a href="#"></a>USEFUL LINKS<h5>
+        <ul class="justify-content-start">
+          <li><a href="#"></a>Pricing</a></li>
+          <li><a href="#"></a>Settings</li>
+          <li><a href="#"></a>Orders</li>
+          <li><a href="#"></a>Help</li>
+        </ul>
+      </div>
+
+      <div class="col-md pacing">
+        <h5 class="mx-4" ><a href="#"></a>CONTACTS<h5>
+        <ul class="justify-content-start">
+          <li><a href="#"></a><i class="bi bi-house-door-fill"></i><span> New York, NY 10012, US</span></a></li>
+          <li><a href="#"></a><i class="bi bi-envelope-fill"></i><span> info@example.com</span></a></li>
+          <li><a href="#"></a><i class="bi bi-telephone-fill"></i><span> +1 746563 87743</span></a></li>
+          <li><a href="#"></a><i class="bi bi-telephone-fill"></i><span> +1 746563 87743</span></a></li>
+        </ul>
+      </div>
+      
+     
+
+     
+
+      
+      
+    </div>
+  </div>
+  <div class="text-center  text-light p-4" >
+    &copy; 2023 Copyright: <span class="fw-bold"> Web Devloper</span>
+  </div>
+</footer>
+<!-- Using  Js Here -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js'></script>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibGVva2Vsdnp6IiwiYSI6ImNsbGN3cmgweDA2Zm4zdXF5ZWJmcXZtNDQifQ.O88oHE7wrf9fEGbzrGQTZw';
+      const map = new mapboxgl.Map({
+      container: 'map', // container ID
+      style: 'mapbox://styles/mapbox/streets-v12', // style URL
+      center: [-71.060982, 42.35725], // starting position [lng, lat]
+      zoom: 18, // starting zoom
+      });
+      </script>
+</body>
+</html>
